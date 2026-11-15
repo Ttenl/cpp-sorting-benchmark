@@ -6,15 +6,7 @@ The two implementations are `selectionSort` and `shellSort` in [main.cpp](main.c
 
 ## Build and run
 
-Use a C++17 compiler and CMake 3.16 or later. Run these commands from the repository root.
-
-```sh
-cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build
-./build/cpp_sorting_benchmark
-```
-
-In CLion, open the repository folder as a CMake project and run `cpp_sorting_benchmark` with a Release profile.
+Use a C++17 compiler and CMake 3.16 or later.
 
 ## How the benchmark works
 
